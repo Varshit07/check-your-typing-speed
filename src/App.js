@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Check your typing speed</h1>
+      <textarea rows = "8" cols="60" placeholder="Click Start button to start typing" />
+      <h2>Time Remaining: ---</h2>
+      <button>Start</button>
+      <h2>Words Typed: ---</h2>
     </div>
   );
 }
