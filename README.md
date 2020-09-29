@@ -1,9 +1,9 @@
 ## Todos
 
-- Heading of the app
-- Textarea to type
-- Timer that counts down to 0
-- Button to start typing
+- ~~Heading of the app~~
+- ~~Textarea to type~~
+- ~~Timer that counts down to 0~~
+- ~~Button to start typing~~
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
