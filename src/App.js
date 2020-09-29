@@ -33,7 +33,6 @@ function App() {
     else if(timeRemaining === 0) {
       setWordsTyped(textTyped.trim().split(" ").filter(word => word !== "").length);
       setShouldTimeCountdown(false);
-      textAreaEl.current.placeholder = "Click Start button to start Typing";
     }
   }, [timeRemaining, shouldTimeCountdown]);
 
